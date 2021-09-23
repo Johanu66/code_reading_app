@@ -18,5 +18,7 @@ Rails.application.routes.draw do
     end
   end
 
+  get '/teams/:id/assigns/:assign_id', to: 'teams#authority', as: 'authority_tranfert'
+
   mount LetterOpenerWeb::Engine, at: "/letter_opener" if Rails.env.development?
 end
