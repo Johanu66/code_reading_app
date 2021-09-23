@@ -1,6 +1,0 @@
-Ajoutez l'action de destruction d'AgendasController, puis ajoutez-y une fonction.
-Créez un bouton de suppression dans la partie droite du nom de l'agenda et appuyez sur ce bouton pour supprimer l'agenda.
-Les articles de l'agenda associés à l'agenda sont également supprimés.
-L'agenda ne peut être supprimé que par le créateur de l'agenda ou le créateur (propriétaire) de l'équipe associée à l'agenda.
-Lorsqu'un agenda est supprimé, un e-mail de notification est envoyé à tous les utilisateurs de l'équipe associée à cet agenda.  Accédez à DashBoard une fois le traitement terminé.
-vérifier le comportement de l'application.
