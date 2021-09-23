@@ -49,7 +49,6 @@ class TeamsController < ApplicationController
 
   def authority
     assign = Assign.find(params[:assign_id])
-    #AssignMailer.assign_mail('johanugandonou@gmail.com', 'password').deliver
     TeamMailer.team_mail(assign.user.email).deliver
     if @team.update(owner_id: assign.user.id)
       @team.invite_member(current_user)
